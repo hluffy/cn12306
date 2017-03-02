@@ -22,7 +22,7 @@ public class DoGet {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String url = "";
+		String url = "http://www.baidu.com";
 		String param = "";
 		String result = sendGet(url,param);
 		System.out.println(result);
